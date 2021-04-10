@@ -1,0 +1,65 @@
+/* 修改Element默认样式 */
+/* Login */
+.login_container .el-tabs__item {
+    font-size: 18px;
+    color: #b8b5ff;
+}
+
+.login_container .el-input__inner {
+    width: 270px;
+}
+
+.login_container .el-form-item__label {
+    font-size: 16px;
+    color: #7868e6;
+}
+
+.login_container .el-form-item {
+    margin-top: 21px;
+    margin-bottom: 16px;
+}
+
+.login_container .el-button {
+    background-color: #161d6f;
+    margin-left: 30px;
+}
+
+/* Navigation */
+
+
+/* Home */
+
+.home_container .el-pager li{
+  width: 30px;
+}
+
+/* Post */
+.post_container .el-pager li{
+  width: 30px;
+}
+
+/* User */
+.user_container .el-main {
+  padding: 0px;
+}
+.user_container .el-tabs__header {
+  width: 180px;
+}
+.user_container .el-tabs--left .el-tabs__item.is-left {
+  padding-left: 50px;
+  text-align: left;
+}
+
+/* Admin */
+.admin_container .el-col,ul{
+  height: 100%;
+}
+
+/* AddPost */
+.addPost_container .board {
+  width: 160px;
+}
+
+.addPost_container .post_title .el-input .el-input__inner {
+  width: 100%;
+}

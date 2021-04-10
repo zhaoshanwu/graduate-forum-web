@@ -1,0 +1,12 @@
+.front_user_container .main {
+  width: 66%;
+  margin: 0 auto;
+  margin-top: 160px;
+  background-color: pink;
+}
+
+.front_user_container .personage {
+  width: 180px;
+  height: 70px;
+  background-color: blue;
+}
