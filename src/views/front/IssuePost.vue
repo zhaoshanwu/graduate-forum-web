@@ -125,7 +125,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  @import '../../assets/css/IssuePost/IssuePost.css';
+  @import '../../assets/css/front/IssuePost.css';
 
   .el-header, .el-footer {
     background-color: #B3C0D1;

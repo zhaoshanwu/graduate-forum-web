@@ -1,0 +1,41 @@
+.admin_login_container {
+  width: 100%;
+  height: 750px;
+  background-color: #413c69;
+}
+
+.admin_login_container .w100 {
+  height: 160px;
+}
+
+.admin_login_container .main{
+  width: 450px;
+  height: 300px;
+  padding: 40px 35px 0;
+  margin: 0 auto;
+  background-color: #845ec2;
+}
+
+.admin_login_container .main .form .icon {
+  position:relative;
+  right: 10px;
+}
+
+.admin_login_container .title {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 20px;
+  color: #eee;
+  line-height: 30px;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.warn {
+  font-size: 14px;
+  color: crimson;
+  line-height: 20px;
+  margin-left: 93px;
+  margin-bottom: 7px;
+}

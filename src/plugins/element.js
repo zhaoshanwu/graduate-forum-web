@@ -8,6 +8,9 @@ import { Pagination } from 'element-ui'
 import { Breadcrumb, BreadcrumbItem, Cascader } from 'element-ui'
 import { Message } from 'element-ui'
 import { RadioGroup, RadioButton, MenuItemGroup, MenuItem, Menu, Submenu } from 'element-ui'
+import { Table, TableColumn } from 'element-ui'
+import { Dialog } from 'element-ui'
+import { Link } from 'element-ui'
 
 Vue.use(Container)
 Vue.use(Header)
@@ -43,3 +46,10 @@ Vue.use(MenuItemGroup)
 Vue.use(MenuItem)
 Vue.use(Menu)
 Vue.use(Submenu)
+
+Vue.use(Table)
+Vue.use(TableColumn)
+
+Vue.use(Dialog)
+
+Vue.use(Link)

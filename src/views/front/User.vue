@@ -153,7 +153,7 @@
 </script>
 
 <style lang="less" scoped>
-  @import '../../assets/css/User/User.css';
+  @import '../../assets/css/front/User.css';
 
   .el-header, .el-footer {
     padding: 0px 40px 0px 40px;

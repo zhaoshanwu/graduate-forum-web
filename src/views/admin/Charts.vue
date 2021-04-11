@@ -18,7 +18,20 @@
         <span>{{num.boardNum}}</span>
       </div>
     </div>
+    <div class="chart">
+      <div class="post_chart">
 
+      </div>
+      <div class="user_active_chart">
+
+      </div>
+      <div class="user_chart">
+
+      </div>
+      <div class="visit_chart">
+
+      </div>
+    </div>
   </div>
 </template>
 
@@ -46,14 +59,14 @@ export default {
 
   .num_message {
     width: 100%;
-    height: 200px;
+    height: 160px;
     margin-top:18px;
   }
 
   .num_message div{
     float: left;
     width: 17%;
-    height: 140px;
+    height: 90px;
     margin: 10px 2% 10px 2%;
     padding: 20px 2% 20px 2%;
     background-color: #fff;
@@ -69,5 +82,13 @@ export default {
     display: block;
     margin-top: 7px;
     font-size: 30px;
+  }
+
+  .chart div {
+    float: left;
+    width: 40%;
+    height: 227px;
+    margin: 10px 5% 10px 5%;
+    background-color: pink;
   }
 </style>

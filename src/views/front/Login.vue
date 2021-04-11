@@ -170,7 +170,7 @@
 
             if (respanse.data.userId != undefined) {
               window.sessionStorage.setItem("userId", user.userId);
-              _this.$router.push({path:'/front_home'}).catch(err=>err);;
+              _this.$router.push({path:'/front_home'}).catch(err=>err);
             }
           })
           .catch(function (error) {
@@ -209,7 +209,7 @@
 </script>
 
 <style lang="less" scoped>
-  @import '../../assets/css/Login/Login.css';
+  @import '../../assets/css/front/Login.css';
 
   body > .el-container {
     margin-bottom: 40px;

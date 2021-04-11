@@ -257,7 +257,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  @import '../../assets/css/Home/Home.css';
+  @import '../../assets/css/front/Home.css';
 
   .el-header, .el-footer {
     padding: 0px 40px 0px 40px;

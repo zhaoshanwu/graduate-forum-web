@@ -258,7 +258,7 @@
 </script>
 
 <style lang="less" scoped>
-  @import '../../assets/css/Post/Post.css';
+  @import '../../assets/css/front/Post.css';
 
   .el-header, .el-footer {
     padding: 0px 40px 0px 40px;

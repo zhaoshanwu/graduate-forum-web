@@ -1,5 +1,5 @@
 <template>
-  <div id="admin_container" class="admin_container">
+  <div id="admin_home_container" class="admin_home_container">
     <el-container>
       <el-header>
         <h1>诗词论坛后台管理平台</h1>
@@ -54,7 +54,8 @@
           </el-col>
         </el-aside>
         <el-main>
-          <login></login>
+          <!-- <charts></charts> -->
+          <adminUser></adminUser>
         </el-main>
       </el-container>
     </el-container>
@@ -62,11 +63,13 @@
 </template>
 
 <script>
-import login from '../../components/Admin/login'
+import charts from '../admin/Charts'
+import adminUser from '../admin/User'
 
 export default {
   components: {
-    login
+    charts,
+    adminUser
   },
   data() {
     return {
@@ -85,7 +88,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  @import '../../assets/css/Admin/Admin.css';
+  @import '../../assets/css/admin/Home.css';
 
   .el-menu-vertical-demo:not(.el-menu--collapse) {
     width: 200px;
